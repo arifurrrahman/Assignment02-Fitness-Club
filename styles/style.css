@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face{
+    font-style: 'Miama';
+    src:url(../Miama.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.banner-container{
+    width: 100%;
+    background: linear-gradient(-90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 800%);
+    border: 2px solid black;
+}
+.container{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-heading h3{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 2.5rem; 
+    font-style: italic; 
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.3rem;
+}
+.nav-list p{
+    margin-right: 3rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 0.4rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+
+}
+.Home{
+    background-color: rgb(230, 83, 60);
+    padding: 0.4rem 1rem;
+    border-radius: 1.4rem;
+}
+
+.banner-text-image{
+    width: 80%;
+    margin: 3rem auto 0rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    width: 40%;
+}
+.banner-text h2{
+    font-size: 4.2rem;
+    font-weight: 900;
+}
+.banner-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.down{
+    background-color: rgb(42, 40, 50);
+    border: 1px solid white;
+    color: white;
+    margin-top: 1.8rem;
+    padding: 1rem 2.2rem 1rem 2.2rem;
+    border-radius: 39px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.join{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border: none;
+    margin-top: 1.8rem;
+    padding: 1rem 2.2rem 1rem 2.2rem;
+    border-radius: 39px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    margin-right: 1.2rem;
+}
+.vid-tutorial{
+    position: absolute;
+    width: 9rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.6rem;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(7px);
+    padding: 0.6rem;
+    left: 58rem;
+    top: 35.5rem;
+}
+.circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+.vid-text h3{
+    color: rgb(250, 250, 249);
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.vid-text p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.vid-down{
+    width: 9rem;
+    height: 3.5rem;
+    position: absolute;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.1);
+    left: 76.5rem;
+    top: 17.5rem;
+    padding: 1rem 1rem 1rem 1.5rem;
+}
+.vid-down h2{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.vid-down p{
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.change-habit-section{
+    background-color: black;
+}
+.change-habit{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.change-habit h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.change-habit p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.member-image-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-1{
+    color: white;
+    text-align: center;
+}
+.img-1 img{
+    border-radius: 50%;
+}
+.img-1 h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.img-1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.margin{
+    width: 100%;
+    height: 110px;
+}
+.run-extra-section{
+    width: 100%;
+    background-color: black;
+}
+.run-text-image-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem;
+    border-radius: 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+}
+.run-extra{
+    width: 35%;
+    color: white;
+    padding: 10px;
+}
+.run-extra h2{
+    font-size: 3.3rem;
+    font-weight: 900;
+}
+.run-extra p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-extra button{
+    margin-top: 2.7rem;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    padding: 1rem 4.5rem;
+    background-color: rgb(230, 83, 60);
+    cursor: pointer;
+}
+.image-contain{
+    width: 35%;
+}
+.image-run{
+    width: 26rem;
+    height: 23rem;
+    object-fit:none;
+    object-position: 67% 33%;
+    border-radius: 1.1rem;
+}
+
+.bmi-calculator-section{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.margin2{
+    width: 100%;
+    height: 50px;
+}
+.bmi-calculator-text{
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+.bmi-calculator-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-calculator-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.margin3{
+    width: 100%;
+    height: 80px;
+}
+.bmi-calculator-div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-calculator-chart{
+    width: 100%;
+    background-color: black;
+}
+.bmi-chart-calculator-container{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+}
+.bmi-chart{
+    color: white;
+    width: 50%;
+}
+.bmi-chart table{
+    margin-top: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 210px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-collapse: collapse;
+}
+.bmi-chart h2{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.bmi-chart td{
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0px 10px 0px 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-chart th{
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 7px 7px 7px 15px;
+    text-align: left;
+}
+.bmi-calculator{
+    color: white;
+}
+.bmi-calculator-para{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.input-checkbox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 40%;
+}
+.input-checkbox input{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 40px;
+    border: none;
+    margin-bottom: 0.8rem;
+    margin-right: 0.7rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.select1{
+    color: rgba(255, 255, 255, 0.6);
+    width: 15.3rem;
+    height: 2.87rem;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.select2{
+    color: rgba(255, 255, 255, 0.6);
+    width: 78%;
+    height: 2.87rem;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.bmi-calculator-div{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.bmi-calculator button{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.bmi-calculator h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.team-photo-text-section{
+    width: 100%;
+    background-color: black;
+}
+.margin4{
+    width: 100%;
+    height: 88px;
+    background-color: black;
+}
+.meet-team-text{
+    width: 100%;
+    background-color: black;
+}
+.meet-team{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.meet-team h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.meet-team p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+.margin5{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.team-photos{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.team-photo-container{
+    color: white;
+    position: relative;
+}
+.head-para-container{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.team-photo-container img{
+    width: 24rem;
+    height: 19rem;
+    border-radius: 1.1rem;
+    background: rgba(0, 0, 0, 0.2);
+    object-fit:cover;
+    background: rgb(185, 185, 185);
+    filter: brightness(80%);
+}
+.team-photo-container h2{
+    color: white;
+}
+.team-photo-container p{
+    color: rgba(255, 255, 255, 0.7);
+}
+footer{
+    width: 100%;
+    color: white;
+    background: black;
+}
+.footer-container{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+}
+.footer-divs{
+    width: 80%;
+    height: 13rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content:space-between;
+
+}
+.div-1{
+    width: 35%;
+}
+.div-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.div-1 h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: oblique;
+}
+.div-1 p{
+    margin-top: 0.5rem;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div-2 a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div-2 p{
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div-2 h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+.div-3 a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div-3 p{
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.div-3 h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.foot-text{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width:576px) {
+    .banner-container{
+        width: 99%;
+    }
+    .container{
+        width: 60%;
+        margin: 3rem 1.6rem;
+    }
+    .banner-heading h3{
+        font-weight: 800;
+        font-size: 2.5rem; 
+        font-style: italic; 
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .nav-list p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding: 0.4rem;
+    }
+    .banner-text-image{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+    }
+    .banner-text{
+        width: calc(100% - 40px);
+    }
+    .banner-text h2{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .banner-text p{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .down{
+        background-color: rgb(42, 40, 50);
+        color: white;
+        margin-top: 1.8rem;
+        padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+        border-radius: 39px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .join{
+        background-color: rgb(230, 83, 60);
+        color: white;
+        margin-top: 1.8rem;
+        margin-right: 0.6rem;
+        padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+        border-radius: 39px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .banner-img{
+        margin-top: 3rem;
+    }
+
+    .banner-img img{
+        position: relative;
+    }
+    .vid-tutorial{
+        position: absolute;
+        width: 7rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0.4rem;
+        background: rgba(48, 48, 48, 0.54);
+        backdrop-filter: blur(7px);
+        left: 2.5rem;
+        top: 51rem;
+    }
+
+    .vid-down{
+        width: 7rem;
+        height: 3rem;
+        position: absolute;
+        border-radius: 0.5rem;
+        backdrop-filter: blur(7px);
+        background: rgba(255, 255, 255, 0.1);
+        left: 13.7rem;
+        top: 37rem;
+        padding: 1rem 1rem 1rem 1.5rem;
+    }
+
+    .vid-text h3{
+        color: rgb(250, 250, 249);
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .vid-text p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+    .vid-down h2{
+        color: white;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    .vid-down p{
+        color: rgba(239, 237, 232, 0.65);
+        font-weight: 400;
+        font-size: .6rem;
+    }
+    .circle{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background-color: rgb(230, 83, 60);
+    }
+    .member-image-container{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .change-habit{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .change-habit-section{
+        width: 99.8%;
+        position: absolute;
+        top: 66rem;
+    }
+    .change-habit h1{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        font-size: 2.2rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .change-habit p{
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}

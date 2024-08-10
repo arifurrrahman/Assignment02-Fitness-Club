@@ -67,6 +67,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .banner-text{
     width: 40%;
@@ -103,10 +104,11 @@
 }
 
 .banner-img{
-    position: relative;
+    /* border: 1px solid white;
+    width: 50%; */
 }
 .banner-img img{
-    margin-right: 1.2rem;
+    margin-left: 8rem;
 }
 .vid-tutorial{
     position: absolute;
@@ -119,8 +121,8 @@
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(7px);
     padding: 0.6rem;
-    left: 58rem;
-    top: 35.5rem;
+    left: 66%;
+    top: 72%;
 }
 .circle{
     width: 2rem;
@@ -145,8 +147,8 @@
     border-radius: 0.7rem;
     backdrop-filter: blur(7px);
     background: rgba(255, 255, 255, 0.1);
-    left: 76.5rem;
-    top: 17.5rem;
+    left: 90%;
+    top: 23%;
     padding: 1rem 1rem 1rem 1.5rem;
 }
 .vid-down h2{

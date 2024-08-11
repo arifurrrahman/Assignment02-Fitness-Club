@@ -743,4 +743,23 @@ hr{
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         padding: 0.7rem 1rem 1rem 1.5rem;
     }
+    .banner-image-change-habit-container{
+        position: relative;
+    }
+    .change-habit-section{
+        position: absolute;
+        top: 91%;
+    }
+    .member-image-container{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blank-div{
+        width: 99.8%;
+        height: 1100px;
+        background-color: black;
+    }
 }

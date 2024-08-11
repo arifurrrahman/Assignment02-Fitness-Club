@@ -103,10 +103,6 @@
     font-weight: 600;
 }
 
-.banner-img{
-    /* border: 1px solid white;
-    width: 50%; */
-}
 .banner-img img{
     margin-left: 8rem;
 }
@@ -691,6 +687,7 @@ hr{
     }
     .banner-text{
         width: calc(100% - 40px);
+        border: 1px solid white;
     }
     .banner-text h2{
         font-size: 3.5rem;
@@ -724,6 +721,7 @@ hr{
 
     .banner-img{
         margin-top: 3rem;
+        margin-right: 10rem;
     }
 
     .banner-img img{

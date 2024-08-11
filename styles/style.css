@@ -119,6 +119,7 @@
     padding: 0.6rem;
     left: 66%;
     top: 72%;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
 }
 .circle{
     width: 2rem;
@@ -146,6 +147,7 @@
     left: 90%;
     top: 23%;
     padding: 1rem 1rem 1rem 1.5rem;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
 }
 .vid-down h2{
     color: white;
@@ -687,7 +689,6 @@ hr{
     }
     .banner-text{
         width: calc(100% - 40px);
-        border: 1px solid white;
     }
     .banner-text h2{
         font-size: 3.5rem;
@@ -721,7 +722,25 @@ hr{
 
     .banner-img{
         margin-top: 3rem;
-        margin-right: 10rem;
+        margin-right: 8rem;
     }
-    
+    .banner-text-image{
+        position: relative;
+    }
+    .vid-tutorial{
+        height: 4rem;
+        position: absolute;
+        left: 10%;
+        top: 67%;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+    }
+    .vid-down{
+        width: 7rem;
+        height: 3rem;
+        position: absolute;
+        left: 55%;
+        top: 45%;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        padding: 0.7rem 1rem 1rem 1.5rem;
+    }
 }

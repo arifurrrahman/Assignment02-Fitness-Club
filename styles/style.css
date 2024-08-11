@@ -478,7 +478,6 @@
 }
 .bmi-calculator-div{
     display: flex;
-    /* justify-content: flex-start; */
     align-items: center;
 }
 .bmi-calculator button{
@@ -762,7 +761,7 @@ hr{
     }
     .blank-div{
         width: 99.8%;
-        height: 1300px;
+        height: 1235px;
         background-color: black;
     }
     .change-habit{
@@ -778,5 +777,62 @@ hr{
         font-weight: 400;
         font-size: 1.2rem;
     }
-    
+    .run-extra-section{
+        width: 99.8%;
+    }
+    .run-text-image-container{
+        width: 75%;
+        margin: 0 auto;
+        /* margin-bottom: 5rem; */
+        display: block;
+        border-radius: 1.1rem;
+        background: rgba(255, 255, 255, 0.15);
+    }
+    .run-extra{
+        width: 100%;
+        padding: 0rem 1rem 0rem 0rem;
+        /* border: 1px solid white; */
+    }
+    .image-contain{
+        width: 100%;
+        margin-top: 1.9rem;
+        padding: 0rem 1rem 0rem 0rem;
+        /* border: 1px solid red; */
+    }
+    .image-run{
+        width: 20rem;
+        height: 11rem;
+        object-fit:cover;
+        border-radius: 1.1rem;
+    }
+    .unique-section{
+        width: 99.8%;
+    }
+    .margin{
+        width: 99.8%;
+        height: 70px;
+    }
+    .run-extra h2{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .run-extra p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .run-extra button{
+        width: 100%;
+        margin-top: 2.7rem;
+        color: white;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 2rem;
+        padding: 1rem 4.5rem;
+        background-color: rgb(230, 83, 60);
+        cursor: pointer;
+    }
 }

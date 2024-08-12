@@ -549,6 +549,9 @@
     padding: 1rem;
     border-radius: 1rem;
 }
+.team-photos-2{
+    display: none;
+}
 .team-photo-container{
     color: white;
     position: relative;
@@ -1039,4 +1042,97 @@ hr{
     .bmi-chart table{
         margin-top: 1rem;
     }
+    .team-photos{
+        display: none;
+    }
+    .margin4{
+        width: 99.8%;
+        height: 60px;
+    }
+    .meet-team-text{
+        width: 99.8%;
+    }
+    .meet-team{
+        width: 80%;
+        text-align: center;
+        color: white;
+    }
+    .meet-team h2{
+        font-size: 2.5rem;
+    }
+    .meet-team p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+    .team-photos-2{
+        display: block;
+    }
+    .team-photo-text-section{
+        width: 99.8%;
+    }
+    .team-photos-2{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .team-photo-container img{
+        width: 21.3rem;
+        height: 17rem;
+        border-radius: 1.1rem;
+        background: rgba(0, 0, 0, 0.2);
+        object-fit:cover;
+        background: rgb(185, 185, 185);
+        filter: brightness(80%);
+    }
+    footer{
+        width: 99.8%;
+    }
+    .footer-divs{
+        width: 100%;
+        height: 40rem;
+        margin-top: 1rem;
+        display: block;
+    
+    }
+    .div-1{
+        width: 80%;
+        margin-left: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .div-container{
+        width: 50%;
+        display: block;
+        margin-left: 1.2rem;
+    }
+    hr{
+        width: 90%;
+        margin-top: 5rem;
+    }
+    .foot-text{
+        width: 70%;
+        margin-left: 1.2rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .div-1 h1{
+        font-size: 4rem;
+    }
+    .div-1 p{
+        margin-top: 0.5rem;
+        line-height: 1.6rem;
+        font-size: 1.15rem;
+    }
+    .div-2 h3, .div-3 h3{
+        margin-bottom: 1.5rem;
+    }
+    
 }

@@ -20,7 +20,8 @@
 
 .banner-container{
     width: 100%;
-    background: linear-gradient(-90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 800%);
+    /* background: linear-gradient(-90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 800%); */
+    background: linear-gradient(45.00deg, black, rgb(34, 33, 33), black);
     border: 2px solid black;
 }
 .container{
@@ -83,7 +84,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 .down{
-    background-color: rgb(42, 40, 50);
+    background-color: rgb(25, 25, 25);
     border: 1px solid white;
     color: white;
     margin-top: 1.8rem;
@@ -805,9 +806,6 @@ hr{
         object-fit:cover;
         border-radius: 1.1rem;
     }
-    .unique-section{
-        width: 99.8%;
-    }
     .margin{
         width: 99.8%;
         height: 70px;
@@ -834,5 +832,106 @@ hr{
         padding: 1rem 4.5rem;
         background-color: rgb(230, 83, 60);
         cursor: pointer;
+    }
+    .unique-section{
+        width: 99.8%;
+        height: 550px;
+        background-size: 100% 100%;
+        object-fit: cover;
+    /* object-fit: none; */
+    /* object-position: 50% 30%; */
+    }
+    .all-btn-container{
+        width: 99%;
+        margin: 0rem auto;
+        display: block;
+    }
+    .btn-container span{
+        font-size: 5rem;
+        color: rgb(230, 83, 60);
+        font-style: italic;
+    }
+    .btn-container h2{
+        font-size: 4rem;
+        margin-bottom: 0.8rem;
+    }
+    .btn-container p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btn-container {
+        width: 90%;
+        margin: 2rem auto 2rem;
+    }
+    .btn-1{
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem 1rem;
+        cursor: pointer;
+        background-color: rgb(230, 83, 60);
+        border: 1px solid black;
+        border: none;
+        border-radius: 0.3rem;
+        color: white;
+    }
+    .btn-2{
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem 1rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 0.3rem;
+        color: white;
+        /* margin-right: 1.7rem; */
+    }
+    .circle-2{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        backdrop-filter: blur(10px);
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    .fa-solid{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+    }
+    .btn-3{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        border-radius: 0.3rem;
+        color: white;
+        margin-right: 1rem;
+    }
+    .icon-div{
+        position: absolute;
+        left: 8%;
+    }
+    .circle-button-container{
+        width: 55%;
+        margin: 0 auto;
+    }
+    .btn-1:hover{
+        font-style: bold;
+        background-color: black;
+        color: white;
+        padding: 1rem 1rem;
+        border: 1px solid white;
+        transition: background-color 0.8s ease;
+    }
+    .btn-2:hover{
+        color: white;
+        font-style: bold;
+        background-color: black;
+        padding: 1rem 1rem;
+        border: none;
+        transition: background-color 1s ease;
     }
 }

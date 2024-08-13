@@ -1198,9 +1198,6 @@ hr{
     .blank-section-1{
         display: none;
     }
-    hr{
-        margin-top: 1.5rem;
-    }
     .blank-div-1{
         display: none;
     }
@@ -1717,7 +1714,7 @@ hr{
         display: none;
     }
     hr{
-        margin-top: 1.5rem;
+        margin-top: 3rem;
     }
     .foot-text{
         font-size: 1.2rem;

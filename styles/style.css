@@ -199,7 +199,6 @@
 
 .change-habit-section{
     background-color: black;
-    /* border: 1px solid white; */
 }
 .change-habit{
     width: 40%;
@@ -239,6 +238,7 @@
 .img-1 h4{
     font-size: 1.2rem;
     font-weight: 600;
+    margin-bottom: 0.7rem;
 }
 .img-1 p{
     font-size: 1.2rem;

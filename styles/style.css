@@ -500,7 +500,7 @@
 }
 .select1{
     color: rgba(255, 255, 255, 0.6);
-    width: 15.2rem;
+    width: 15.9rem;
     height: 2.87rem;
     border: none;
     border-radius: 8px;
@@ -702,6 +702,7 @@ hr{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
 }
+
 @media screen and (max-width:576px) {
     .banner-container{
         width: 99%;

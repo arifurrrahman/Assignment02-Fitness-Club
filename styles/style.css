@@ -488,12 +488,10 @@
 .input-checkbox{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 40%;
 }
 .input-checkbox input{
-    width: 50%;
     color: rgba(255, 255, 255, 0.6);
-    padding: 15px 40px;
+    padding: 1rem 2.4rem;
     border: none;
     margin-bottom: 0.8rem;
     margin-right: 0.7rem;
@@ -502,7 +500,7 @@
 }
 .select1{
     color: rgba(255, 255, 255, 0.6);
-    width: 50%;
+    width: 15.2rem;
     height: 2.87rem;
     border: none;
     border-radius: 8px;
@@ -512,7 +510,7 @@
 }
 .select2{
     color: rgba(255, 255, 255, 0.6);
-    width: 100%;
+    width: 98.5%;
     height: 2.87rem;
     border-radius: 8px;
     padding: 15px;
@@ -703,16 +701,6 @@ hr{
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
-}
-#select2{
-    border: 1px solid white;
-}
-.input-checkbox{
-    width: 100%;
-    border: 1px solid white;
-}
-.bmi-calculator{
-    border: 1px solid white;
 }
 @media screen and (max-width:576px) {
     .banner-container{

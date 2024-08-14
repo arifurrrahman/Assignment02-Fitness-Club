@@ -703,6 +703,16 @@ hr{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
 }
+#select2{
+    border: 1px solid white;
+}
+.input-checkbox{
+    width: 100%;
+    border: 1px solid white;
+}
+.bmi-calculator{
+    border: 1px solid white;
+}
 @media screen and (max-width:576px) {
     .banner-container{
         width: 99%;

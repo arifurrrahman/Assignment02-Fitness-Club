@@ -805,6 +805,11 @@ hr{
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         padding: 0.7rem 1rem 1rem 1.5rem;
     }
+    .vid-down p{
+        color: rgba(239, 237, 232, 0.65);
+        font-weight: 400;
+        font-size: .7rem;
+    }
     .banner-image-change-habit-container{
         position: relative;
     }

@@ -122,6 +122,8 @@
     border-radius: 2.4rem;
     font-size: 1.1rem;
     font-weight: 600;
+}.join2{
+    display: none;
 }
 .banner-image-change-habit-container{
     position: relative;
@@ -706,8 +708,10 @@ hr{
         width: 99%;
     }
     .container{
-        width: 60%;
+        width: 90%;
         margin: 3rem 1.3rem;
+        display: flex;
+        justify-content: space-between;
     }
     .banner-heading h3{
         font-weight: 800;
@@ -724,7 +728,6 @@ hr{
         padding: 0.4rem;
     }
     .ham-burger{
-        margin-left: 13.6rem;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -742,7 +745,7 @@ hr{
         width: calc(100% - 40px);
     }
     .banner-text h2{
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-weight: 700;
         line-height: 4rem;
     }
@@ -756,7 +759,7 @@ hr{
         color: rgba(255, 255, 255, 0.5);
     }
     .down{
-        background-color: rgb(42, 40, 50);
+        background-color: black;
         color: white;
         margin-top: 1.8rem;
         padding: 0.7rem 1.7rem 0.7rem 1.7rem;
@@ -765,11 +768,15 @@ hr{
         font-weight: 600;
     }
     .join{
+        display: none;
+    }
+    .join2{
+        display: inline;
         background-color: rgb(230, 83, 60);
         color: white;
         margin-top: 1.8rem;
         margin-right: 0.6rem;
-        padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+        padding: 0.7rem 2.8rem 0.7rem 2.8rem;
         border-radius: 2.4rem;
         font-size: 1.1rem;
         font-weight: 600;
@@ -804,6 +811,7 @@ hr{
     .change-habit-section{
         position: absolute;
         top: 91%;
+        left: 0%;
     }
     .member-image-container{
         width: 60%;
@@ -1207,8 +1215,10 @@ hr{
         width: 99%;
     }
     .container{
-        width: 60%;
+        width: 90%;
         margin: 3rem 1.3rem;
+        display: flex;
+        justify-content: space-between;
     }
     .banner-heading h3{
         font-weight: 800;
@@ -1225,7 +1235,6 @@ hr{
         padding: 0.4rem;
     }
     .ham-burger{
-        margin-left: 10rem;
         font-size: 1.5rem;
         cursor: pointer;
         
@@ -1258,22 +1267,26 @@ hr{
         color: rgba(255, 255, 255, 0.5);
     }
     .down{
-        background-color: rgb(42, 40, 50);
+        background-color: rgb(24, 24, 26);
         color: white;
         margin-top: 1.8rem;
         padding: 0.7rem 1.1rem 0.7rem 1.1rem;
         border-radius: 39px;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 600;
     }
     .join{
+        display: none;
+    }
+    .join2{
+        display: inline;
         background-color: rgb(230, 83, 60);
         color: white;
         margin-top: 1.8rem;
-        margin-right: 0.3rem;
-        padding: 0.7rem 1.1rem 0.7rem 1.1rem;
-        border-radius: 39px;
-        font-size: 1.1rem;
+        margin-right: 0.6rem;
+        padding: 0.7rem 2rem 0.7rem 2rem;
+        border-radius: 2.4rem;
+        font-size: 1rem;
         font-weight: 600;
     }
 
@@ -1285,14 +1298,14 @@ hr{
         position: relative;
     }
     .vid-tutorial{
-        height: 4rem;
+        height: 3.5rem;
         position: absolute;
         left: 5%;
         top: 67%;
         border: 0.76px solid rgba(255, 255, 255, 0.1);
     }
     .vid-down{
-        width: 7rem;
+        width: 5.6rem;
         height: 3rem;
         position: absolute;
         left: 55%;
@@ -1300,12 +1313,19 @@ hr{
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         padding: 0.7rem 1rem 1rem 1.5rem;
     }
+    .vid-down h2{
+        font-size: 1.7rem;
+    }
+    .vid-down p{
+        font-size: 0.7rem;
+    }
     .banner-image-change-habit-container{
         position: relative;
     }
     .change-habit-section{
         position: absolute;
         top: 91%;
+        left: 0%;
     }
     .member-image-container{
         width: 60%;
@@ -1332,8 +1352,8 @@ hr{
         width: 90%;
     }
     .change-habit h1{
-        font-weight: 800;
-        font-size: 2rem;
+        font-weight: 700;
+        font-size: 1.9rem;
         margin-bottom: 0.7rem;
     }
     
@@ -1361,7 +1381,7 @@ hr{
         padding: 0rem 1rem 0rem 0rem;
     }
     .image-run{
-        width: 17.5rem;
+        width: 100%;
         height: 11rem;
         object-fit:cover;
         border-radius: 1.1rem;
@@ -1386,7 +1406,7 @@ hr{
         margin-top: 2.7rem;
         color: white;
         border: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;
         border-radius: 2rem;
         padding: 1rem 5.5rem;

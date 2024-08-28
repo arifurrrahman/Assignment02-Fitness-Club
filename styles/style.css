@@ -480,42 +480,33 @@
 }
 .bmi-calculator{
     color: white;
+    padding: 1rem;
 }
 .bmi-calculator-para{
     width: 80%;
     margin-bottom: 1rem;
 }
-.input-checkbox{
+.input-checkbox form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
-.input-checkbox input{
-    color: rgba(255, 255, 255, 0.6);
-    padding: 1rem 2.4rem;
+.input-checkbox form input{
+    color: rgb(108, 106, 106);
+    padding: 0.8rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
     border: none;
-    margin-bottom: 0.8rem;
-    margin-right: 0.7rem;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
 }
-.select1{
-    color: rgba(255, 255, 255, 0.6);
-    width: 15.4rem;
-    height: 2.87rem;
+.input-checkbox form select{
+    color: rgb(108, 106, 106);
+    padding: 0.8rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
     border: none;
-    border-radius: 8px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
+    border-radius: 0.5rem;
 }
-.select2{
-    color: rgba(255, 255, 255, 0.6);
-    width: 98.5%;
-    height: 2.87rem;
-    border-radius: 8px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
+.input-checkbox form .select2{
+    grid-column:span 2;
 }
 .bmi-calculator-div{
     display: flex;
@@ -1054,6 +1045,7 @@ hr{
     .bmi-calculator{
         color: white;
         margin-top: 3rem;
+        padding: 0rem;
     }
     .bmi-calculator h2{
         font-size: 1.3rem;
@@ -1067,36 +1059,19 @@ hr{
         font-size: 1rem;
         line-height: 1.3rem;
     }
-    .input-checkbox{
-        width: 100%;
+    .bmi-calculator-para{
+        width: 80%;
+        margin-bottom: 1rem;
     }
-    .input-checkbox input{
-        width: 54%;
-        color: rgba(255, 255, 255, 0.6);
-        padding: 15px 40px;
-        border: none;
-        margin-bottom: 0.8rem;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.1);
+    .input-checkbox form{
+        width: 100%;
+        gap: 5px;
+    }
+    .input-checkbox form input{
+        width: 80%;
     }
     .select1{
-        color: rgba(255, 255, 255, 0.6);
-        width: 11.5rem;
-        height: 2.87rem;
-        border: none;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border: none;
-    }
-    .select2{
-        color: rgba(255, 255, 255, 0.6);
-        width: 98%;
-        height: 2.87rem;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border: none;
+        width: 100%;
     }
     .bmi-calculator button{
         padding: 1rem 5.5rem;
@@ -1585,36 +1560,10 @@ hr{
         font-size: 1rem;
         line-height: 1.3rem;
     }
-    .input-checkbox{
-        width: 100%;
-    }
-    .input-checkbox input{
-        width: 49%;
-        color: rgba(255, 255, 255, 0.6);
-        padding: 15px 40px;
-        border: none;
-        margin-bottom: 0.8rem;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-    .select1{
-        color: rgba(255, 255, 255, 0.6);
-        width: 10.1rem;
-        height: 2.87rem;
-        border: none;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border: none;
-    }
-    .select2{
-        color: rgba(255, 255, 255, 0.6);
-        width: 98%;
-        height: 2.87rem;
-        border-radius: 8px;
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border: none;
+    .bmi-calculator{
+        color: white;
+        margin-top: 3rem;
+        padding: 0rem;
     }
     .bmi-calculator button{
         padding: 1rem 4.2rem;
